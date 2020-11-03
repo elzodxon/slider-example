@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    overflow-y: scroll;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black !important;
+}
+
+.container {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    transition: all 1s ease;
+}
+
+#filters {
+    padding: 0;
+    list-style: none;
+    background-color: #F2F2F2;
+    color: white;
+    border-radius: 2rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 18em;
+    height: 40px;
+    margin: 20px auto;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#filters li span {
+    display: flex;
+    justify-content: center;
+    padding: 5px 30px;
+    height: 40px;
+    align-items: center;
+   /* padding: 5px 40px; */
+    text-decoration: none;
+    border-radius: 2rem;
+    color: black;
+    cursor: pointer;
+    transition: color 300ms ease-in-out;
+}
+
+#filters li span:hover {
+    color: #fff;
+}
+
+#filters li span.active {
+    background: #00ACEC;
+    color: white;
+    border-radius: 20px;
+}
+
+#portfoliolist .portfolio {
+    width: 98%;
+    margin: 1%;
+    display: none;
+    overflow: hidden;
+}
+
+.portfolio-wrapper {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    position: relative !important;
+    cursor: pointer;
+}
+
+
+.portfolio-wrapper__icons{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+/* Swiper */
+.flex-start{
+    justify-content: flex-start;
+    width: 60%;
+}
+
+.flex-end{
+ 
+    z-index: 11000;
+    left: 50%;
+    top: 20px;
+    background: white;
+    color: black;
+    padding: 20px 60px;
+    border: 1px solid #F2F2F2;
+}
+
+.flex-start-c{
+    justify-content: flex-end;
+    width: 100%;
+    left: 40%;
+    position: relative;
+
+}
+
+.flex-end-c{
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 11000;
+    top: 20px;
+    background: white;
+    color: black;
+    padding: 20px 60px;
+    left: 0;
+    width: 50%;
+    border: 1px solid #F2F2F2;
+
+}
+
+.sign-up{
+    display: block;
+    background-color: #00ACEC;
+    padding: 15px;
+    border-radius: 25px;
+    color: white !important;
+    width: 220px;
+    text-align: center;
+    border: none;
+    margin-top: 20px;
+}
+
+.swiper-container,
+.blog-slider-container{
+    width: 100%;
+    height: 100%;
+}
+
+.pagination{
+    position: absolute;
+    top: 24px;
+    left: 0;
+    padding: 0;
+    width: 110px;
+    margin-left: -10px;
+}
+
+.pagination-c{
+    position: absolute;
+    top: 24px;
+    left: 52.5%;
+    padding: 0;
+    width: 110px;
+    margin-left: -10px;
+}
+
+.swiper-button-prev,
+.swiper-button-next{
+    background: rgba(0, 0, 0, 0.6) ;
+    color: white;
+    padding: 15px 22px;
+}
+.swiper-slide {
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    width: 100%;
+}
+
+
+/* Self Clearing Goodness */
+
+.container:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.row:after,
+.clearfix:after {
+    clear: both;
+}
+
+.row,
+.clearfix {
+    zoom: 1;
+}
+
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+

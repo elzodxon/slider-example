@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/3c7a95f37c.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@300;400;500;700;900&display=swap">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css" integrity="sha512-uCQmAoax6aJTxC03VlH0uCEtE0iLi83TW1Qh6VezEZ5Y17rTrIE+8irz4H4ehM7Fbfbm8rb30OkxVkuwhXxrRg==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+
+</head>
+<body>
+
+
+<div class="container">
+
+    <ul id="filters" class="clearfix">
+        <li><span class="filter" data-filter=".hotel">Hotel</span></li>
+        <li><span class="filter" data-filter=".motel">Motel</span></li>
+        <li><span class="filter" data-filter=".hostel">Hostel</span></li>
+    </ul>
+
+    <div id="portfoliolist">
+
+
+        <div class="portfolio hotel" data-cat="hotel">
+            <div class="portfolio-wrapper">
+                <div class="flex-start">
+                    <div class="blog-slider-container swiper-container ">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" style="background: url('slider-example/rasm.png');"></div>
+                            <div class="swiper-slide" style="background: url('slider-example/bas.png');"></div>
+                            <div class="swiper-slide" style="background: url('slider-example/rasm.png');"></div>
+                        </div>
+                        <!-- Add Arrows -->
+                        <div class="pagination">
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="flex-end" style="position: absolute">
+                    <div class="portfolio-wrapper-name-star" style="display: flex; align-items: center">
+                        <h2 style="font-size: 40px; font-weight: 400">Plaza</h2>
+                        <div class="rateYo" style="position: relative; left: 50%"></div>
+
+                    </div>
+                    <div class="portfolio-wrapper__about " style="margin-top: -20px; ">
+                        <p style="font-size: 18px; font-weight: 300">
+                            Hotels Worldwide. Book Now, Pay When You Stay. No Booking Fees. Read Real Guest Reviews. Save 10% with Genius. 24/7 Customer Service. Best Price Guarantee. We speak your language.
+                        </p>
+                    </div>
+                    <div class="portfolio-wrapper__map portfolio-wrapper__icons">
+                        <a style="font-size: 18px">Xarita</a>
+                        <img src="arr.svg" alt="" style="margin-left: 20px">
+
+                    </div>
+
+                    <div class="portfolio-wrapper-contact portfolio-wrapper__icons">
+                        <img src="call.svg" alt="">
+                        <a style="font-size: 20px; margin-left: 20px">+9989458349839</a>
+                    </div>
+
+                    <div class="portfolio-wrapper__adress portfolio-wrapper__icons">
+                        <img src="pin.svg" alt="">
+                        <a style="font-size: 18px; margin-left: 20px">Toshkent, Lorem ipsum.</a>
+                    </div>
+
+                    <div style="font-size: 20px" class="portfolio-wrapper-websayt portfolio-wrapper__icons">
+                        <img src="globe.svg" alt="">
+                        <a href="" style="font-size: 18px; margin-left: 20px">mehmon24.uz</a>
+                    </div>
+
+                    <button class="sign-up">Ro'yhatdan o'tish</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio hotel" data-cat="hotel">
+            <div class="portfolio-wrapper" style="flex-direction: row-reverse">
+                <div class="flex-start flex-start-c">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"></div>
+                            <div class="swiper-slide"></div>
+                            <div class="swiper-slide"></div>
+                        </div>
+                        <!-- Add Arrows -->
+                        <div class="pagination pagination-c">
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="flex-end flex-end-c" style="position: absolute;">
+                    <div class="portfolio-wrapper-name-star" style="display: flex; align-items: center;">
+                        <h2 style="font-size: 40px; font-weight: 400">Plaza</h2>
+                        <div class="rateYo" style="position: relative; left: 50%"></div>
+
+                    </div>
+                    <div class="portfolio-wrapper__about " style="margin-top: -20px; ">
+                        <p style="font-size: 18px; font-weight: 300">
+                            Hotels Worldwide. Book Now, Pay When You Stay. No Booking Fees. Read Real Guest Reviews. Save 10% with Genius. 24/7 Customer Service. Best Price Guarantee. We speak your language.
+                        </p>
+                    </div>
+                    <div class="portfolio-wrapper__map portfolio-wrapper__icons">
+                        <a style="font-size: 18px">Xarita</a>
+                        <img src="arr.svg" alt="" style="margin-left: 20px">
+
+                    </div>
+
+                    <div class="portfolio-wrapper-contact portfolio-wrapper__icons">
+                        <img src="call.svg" alt="">
+                        <a style="font-size: 20px; margin-left: 20px">+9989458349839</a>
+                    </div>
+
+                    <div class="portfolio-wrapper__adress portfolio-wrapper__icons">
+                        <img src="pin.svg" alt="">
+                        <a style="font-size: 18px; margin-left: 20px">Toshkent, Lorem ipsum.</a>
+                    </div>
+
+                    <div style="font-size: 20px" class="portfolio-wrapper-websayt portfolio-wrapper__icons">
+                        <img src="globe.svg" alt="">
+                        <a href="" style="font-size: 18px; margin-left: 20px">mehmon24.uz</a>
+                    </div>
+
+                    <button class="sign-up">Ro'yhatdan o'tish</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio hotel" data-cat="hotel">
+            <div class="portfolio-wrapper">
+                <div class="flex-start">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"></div>
+                            <div class="swiper-slide"></div>
+                            <div class="swiper-slide"></div>
+                        </div>
+                        <!-- Add Arrows -->
+                        <div class="pagination">
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="flex-end" style="position: absolute">
+                    <div class="portfolio-wrapper-name-star" style="display: flex; align-items: center">
+                        <h2 style="font-size: 40px; font-weight: 400">Plaza</h2>
+                        <div class="rateYo" style="position: relative; left: 50%"></div>
+
+                    </div>
+                    <div class="portfolio-wrapper__about " style="margin-top: -20px; ">
+                        <p style="font-size: 18px; font-weight: 300">
+                            Hotels Worldwide. Book Now, Pay When You Stay. No Booking Fees. Read Real Guest Reviews. Save 10% with Genius. 24/7 Customer Service. Best Price Guarantee. We speak your language.
+                        </p>
+                    </div>
+                    <div class="portfolio-wrapper__map portfolio-wrapper__icons">
+                        <a style="font-size: 18px">Xarita</a>
+                        <img src="arr.svg" alt="" style="margin-left: 20px">
+
+                    </div>
+
+                    <div class="portfolio-wrapper-contact portfolio-wrapper__icons">
+                        <img src="call.svg" alt="">
+                        <a style="font-size: 20px; margin-left: 20px">+9989458349839</a>
+                    </div>
+
+                    <div class="portfolio-wrapper__adress portfolio-wrapper__icons">
+                        <img src="pin.svg" alt="">
+                        <a style="font-size: 18px; margin-left: 20px">Toshkent, Lorem ipsum.</a>
+                    </div>
+
+                    <div style="font-size: 20px" class="portfolio-wrapper-websayt portfolio-wrapper__icons">
+                        <img src="globe.svg" alt="">
+                        <a href="" style="font-size: 18px; margin-left: 20px">mehmon24.uz</a>
+                    </div>
+
+                    <button class="sign-up">Ro'yhatdan o'tish</button>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</div>
+
+<script>
+    $(function () {
+
+        $(".rateYo").rateYo({
+            rating: 3.6,
+            normalFill:'#F2F2F2',
+            ratedFill: '#EFE500',
+        });
+
+    });
+</script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"
+            integrity="sha512-VHsNaV1C4XbgKSc2O0rZDmkUOhMKPg/rIi8abX9qTaVDzVJnrDGHFnLnCnuPmZ3cNi1nQJm+fzJtBbZU9yRCww==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
+
+    <script src="js/main.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+</html>
